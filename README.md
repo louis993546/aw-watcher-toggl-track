@@ -1,7 +1,7 @@
-aw-watcher-spotify
+aw-watcher-toggl-track
 ==================
 
-Watches your currently playing Spotify track. This is on a per-user basis since it uses the Spotify Web API, so you don't need to run it on all your machines if you don't want the redundancy.
+Watches your currently Toggl track activity. This is on a per-user basis since it uses the Toggl Track Web API, so you don't need to run it on all your machines if you don't want the redundancy.
 
 This watcher is currently in a early stage of development, please submit PRs if you find bugs!
 
