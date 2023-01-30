@@ -1,17 +1,16 @@
 [tool.poetry]
-name = "aw-watcher-spotify"
-version = "0.3.0"
-description = "Spotify watcher for ActivityWatch"
-authors = ["Erik Bjäreholt <erik@bjareho.lt>"]
+name = "aw-watcher-toggl-track"
+version = "0.1.0"
+description = "Toggl Track watcher for ActivityWatch"
+authors = ["Louis Tsai <louis993546@gmail.com>"]
 license = "MPL-2.0"
-repository = "https://github.com/ActivityWatch/aw-watcher-spotify"
+repository = "https://github.com/louis993546/aw-watcher-toggl-track"
 
 [tool.poetry.scripts]
-aw-watcher-spotify = "aw_watcher_spotify:main"
+aw-watcher-toggl-track = "aw_watcher_toggl_track:main"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-spotipy = "^2.12.0"
 aw-client = "^0.5.7"
 
 [tool.poetry.dev-dependencies]

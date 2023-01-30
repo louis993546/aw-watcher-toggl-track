@@ -5,7 +5,17 @@ Watches your currently Toggl track activity. This is on a per-user basis since i
 
 This watcher is currently in a early stage of development, please submit PRs if you find bugs!
 
+## Links & references
 
+* https://python-poetry.org/docs/basic-usage/#installing-without-poetrylock
+* https://developers.track.toggl.com/docs/api/me/index.html
+* https://developers.track.toggl.com/docs/api/time_entries/index.html#get-get-current-time-entry
+* https://docs.activitywatch.net/en/latest/watchers.html
+* https://docs.activitywatch.net/en/latest/examples/writing-watchers.html
+
+## Original documentation (as spotify watcher)
+
+```markdown
 ## Usage
 
 ### Step 0: Create Spotify Web API token
@@ -27,7 +37,7 @@ poetry install
 First run (generates empty config that you need to fill out):
 
 ```sh
-poetry run aw-watcher-spotify
+poetry run aw-watcher-toggl-track
 ```
 ### Step 1: Install package (without poetry, using only pip)
 
@@ -65,3 +75,4 @@ The export contains, among other things:
 - Inferences
 
 (thanks [@oreHGA](https://github.com/oreHGA) for the tip!)
+```
